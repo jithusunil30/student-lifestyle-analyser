@@ -3,7 +3,7 @@ from openai import OpenAI
 # 🔑 Use your Groq API key
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="YOUR API KEY HERE"
+    api_key="YOUR_API_KEY_HERE"
 )
 
 def chatbot_response(question, score):
