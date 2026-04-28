@@ -1,5 +1,5 @@
 from openai import OpenAI
-import streanlit as st
+import streamlit as st
 # 🔑 Use your Groq API key
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
